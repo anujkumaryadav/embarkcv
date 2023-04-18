@@ -1,6 +1,6 @@
 # Resume Builder Website
 
-Welcome to Let's Make Resume Builder Website! Our website allows users to easily create professional resume.
+Welcome to Let's Make Resume Builder Website a college Mini Project! Our website allows users to easily create professional resume.
 
 ## Features
 - User-friendly interface for creating resumes.
