@@ -30,7 +30,7 @@ npm start
 - [React HTML to PDF](https://www.npmjs.com/package/react-html-to-pdf)
 
 ### Developers
-- [Anujkumar Yadav] (https://www.linkedin.com/in/anujkumarlyadav/)
-- [Prem Mungle] (https://www.linkedin.com/in/premmungle/)
-- [Sejal Khanzode] (https://www.linkedin.com/in/sejal-khanzode/)
+- Anujkumar Yadav - https://www.linkedin.com/in/anujkumarlyadav/
+- Prem Mungle - https://www.linkedin.com/in/premmungle/
+- Sejal Khanzode - https://www.linkedin.com/in/sejal-khanzode/
 
