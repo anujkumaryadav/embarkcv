@@ -1,12 +1,12 @@
 import { Flex, Container, Heading, Stack, Text, Button, Box } from '@chakra-ui/react';
-import './introduction.css';
+import './temp.css';
 import homeLogo from './../../Assets/home-logo.png'
 import { Image } from '@chakra-ui/react'
 import { useContext } from 'react';
 import ResumeContext from '../../Context/ResumeContext';
 import ThemeTemplateData from '../../db/ThemeTemplateData';
 
-export default function Introduction() {
+export default function Temp() {
     const { selectBtn, setSelectBtn, setCurrentTheme, showComponent, setShowComponent } = useContext(ResumeContext);
 
     const handleSelectTemplate = () => {
@@ -17,7 +17,7 @@ export default function Introduction() {
         setShowComponent(!showComponent)
         setCurrentTheme(e.target.id)
     }
-
+  
 
     return (
         <Container my={{ base: 1.5, md: 16 }} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', sm: 'column' }} display={'flex'} alignItems={'center'} maxW={'7xl'}>
@@ -51,26 +51,26 @@ export default function Introduction() {
                                 <Box className='Bullet_Points'>
                                     <Button>1</Button>
                                     <Text _dark={{ color: "gray.400" }} color={'gray.900'} fontSize={'xl'}>
-                                        Build a professional resume for free.
+                                        Select a template.
                                     </Text>
                                 </Box>
                                 <Box className='Bullet_Points'>
                                     <Button>2</Button>
                                     <Text _dark={{ color: "gray.400" }} color={'gray.900'} fontSize={'xl'}>
-                                        Ability to download and print resumes instantly.
+                                        Enter Information & Boom.
                                     </Text>
                                 </Box>
                                 <Box className='Bullet_Points'>
                                     <Button>3</Button>
                                     <Text _dark={{ color: "gray.400" }} color={'gray.900'} fontSize={'xl'}>
-                                        Downloads available in PDF and text formatting.
+                                        Download your resume.
                                     </Text>
                                 </Box>
 
                                 <Box className='Bullet_Points'>
                                     <Button>4</Button>
                                     <Text _dark={{ color: "gray.400" }} color={'gray.900'} fontSize={'xl'}>
-                                        24/7/365 access to your resume.
+                                        Share with recruters
                                     </Text>
                                 </Box>
                             </Flex>
@@ -95,7 +95,16 @@ export default function Introduction() {
                 selectBtn ?
                     <Stack>
                         <Image src={homeLogo} alt='home logo' my={'4'} />
-                       
+                        <Button
+                            onClick={handleSelectTemplate}
+                            rounded={'full'}
+                            px={6}
+                            className='mb-4'
+                            colorScheme={'teal'}
+                            bg={'#38B2AC'}
+                            _hover={{ bg: '#319795' }}>
+                            Select Template
+                        </Button>
                     </Stack>
                     :
                     <>
@@ -111,7 +120,5 @@ export default function Introduction() {
                     </>
             }
         </Container>
-
-        
     );
 }

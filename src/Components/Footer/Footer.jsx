@@ -1,6 +1,6 @@
 import { Box, chakra, Container, Stack, Text, Image, useColorModeValue, VisuallyHidden, } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import logo from './../../Assets/logo.png';
+import logo from './../../Assets/logo1.png';
 
 
 const SocialButton = ({ children, label, href }) => {
@@ -54,6 +54,7 @@ export default function Footer() {
                     </SocialButton>
                 </Stack>
             </Container>
+            
         </Box>
     );
 }

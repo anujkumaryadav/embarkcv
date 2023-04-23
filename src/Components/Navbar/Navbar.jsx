@@ -1,7 +1,7 @@
 import { Box, Flex, HStack, IconButton, useDisclosure, useColorMode, useColorModeValue, Stack, Button } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { Link as ReachLink } from 'react-router-dom'
-import logo from './../../Assets/logo.png';
+import logo from './../../Assets/logo1.png';
 
 
 export default function Navbar() {
@@ -13,12 +13,12 @@ export default function Navbar() {
         <>
             <Box id='navbar' bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
-                    <Box><img style={{ height: '44px' }} className='logo' src={logo} alt="logo" /></Box>
+                    <Box><img style={{ height: '54px' }} className='logo' src={logo} alt="logo" /></Box>
 
-                    <HStack spacing={8} alignItems={'center'}>
+                    <HStack spacing={9} alignItems={'center'}>
                         <HStack
                             as={'nav'}
-                            spacing={4}
+                            spacing={5}
                             display={{ base: 'none', md: 'flex' }}>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/home'} >Home </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/templates'} >Templates </ReachLink>
@@ -43,7 +43,7 @@ export default function Navbar() {
                 {isOpen ? (
                     <Box pb={4} display={{ md: 'none' }}>
                         <Stack as={'nav'} spacing={4}>
-                            <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/'} >Home </ReachLink>
+                            <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/home'} >Home </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/templates'} >Templates </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/tips'} >Tips </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/about'}> Contact Us</ReachLink>

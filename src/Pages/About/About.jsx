@@ -5,7 +5,8 @@ const testimonials = [
         name: 'Mr. Prem Mungle',
         role: 'Frontend Developer',
         content:
-            'A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.',
+            'Hi there! Im Prem Mungle a Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+            
         avatar:
             'https://avatars.githubusercontent.com/pmungle',
     },
@@ -13,15 +14,15 @@ const testimonials = [
         name: 'Ms. Sejal Khanzode',
         role: 'Frontend Developer',
         content:
-            'A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.',
-        avatar:
+            'Hi there! Im Sejal Khanzode a Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+            avatar:
             'https://avatars.githubusercontent.com/sejalkhanzode',
     },
     {
         name: 'Mr. Anujkumar Yadav',
         role: 'Full Stack Developer',
         content:
-            'A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.',
+            'Hi there! Im Anujkumar Yadav a Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
         avatar:
             'https://avatars.githubusercontent.com/anujkumaryadav',
     }
