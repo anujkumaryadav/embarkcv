@@ -1,6 +1,6 @@
 # Resume Builder Website
 
-Welcome to Let's Make Resume Builder Website! Our website allows users to easily create professional resume.
+Welcome to Let's Make Resume Builder Website a college Mini Project! Our website allows users to easily create professional resume.
 
 ## Features
 - User-friendly interface for creating resumes.
@@ -30,7 +30,7 @@ npm start
 - [React HTML to PDF](https://www.npmjs.com/package/react-html-to-pdf)
 
 ### Developers
-- [Anujkumar Yadav] (https://www.linkedin.com/in/anujkumarlyadav/)
-- [Prem Mungle] (https://www.linkedin.com/in/premmungle/)
-- [Sejal Khanzode] (https://www.linkedin.com/in/sejal-khanzode/)
+- Anujkumar Yadav - https://www.linkedin.com/in/anujkumarlyadav/
+- Prem Mungle - https://www.linkedin.com/in/premmungle/
+- Sejal Khanzode - https://www.linkedin.com/in/sejal-khanzode/
 
