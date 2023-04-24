@@ -4,6 +4,7 @@ import { Link as ReachLink } from 'react-router-dom'
 import logo from './../../Assets/logo1.png';
 
 
+
 export default function Navbar() {
     const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -13,9 +14,14 @@ export default function Navbar() {
         <>
             <Box id='navbar' bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+                    <a href='/home'>
+
                     <Box>
                         <img style={{ height: '54px' }} className='logo' src={logo} alt="logo" />
                     </Box>
+
+                    </a>
+                    
 
                     <HStack spacing={9} alignItems={'center'}>
                         <HStack
@@ -27,9 +33,7 @@ export default function Navbar() {
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/tips'} >Tips </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/about'}> Contact Us</ReachLink>
                         </HStack>
-                        <Button onClick={toggleColorMode}>
-                            {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-                        </Button>
+                        
                         <Button onClick={toggleColorMode}>
                             {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
                         </Button>

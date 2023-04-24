@@ -1,6 +1,6 @@
 import { Flex, Container, Heading, Stack, Text, Button, Box } from '@chakra-ui/react';
 import './temp.css';
-import homeLogo from './../../Assets/home-logo.png'
+import homeLogo from './../../Assets/searching.png'
 import { Image } from '@chakra-ui/react'
 import { useContext } from 'react';
 import ResumeContext from '../../Context/ResumeContext';
@@ -36,16 +36,14 @@ export default function Temp() {
                                 fontWeight={600}
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
-                                Let's Make Resume {' '}
+                                Start building your {' '}
                                 <Text as={'span'} color={'#38B2AC'}>
-                                    Engineers  {' '}
+                                    Professional Resume  {' '}
                                 </Text>
-                                Choice
+                                with us
                             </Heading>
 
-                            <Text color={'gray.500'} maxW={'3xl'}>
-                                Let's Make Resume that assemble well-formatted resume. Through a LM resume builder, you can create a professional-looking resume in a few easy steps. This resume builder offer variety of template options, so you can select the template that best fits your needs and style.
-                            </Text>
+                        
 
                             <Flex _dark={{ color: 'gray.50' }} textAlign={'start'} flexDirection={'column'} w={'full'}>
                                 <Box className='Bullet_Points'>
@@ -82,11 +80,11 @@ export default function Temp() {
                             fontWeight={600}
                             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                             lineHeight={'110%'}>
-                            Select a {' '}
+                            Choose your {' '}
                             <Text as={'span'} color={'#38B2AC'}>
-                                Template {' '}
+                                Favorite Template {' '}
                             </Text>
-                            from the list
+                            
                         </Heading>
                 }
             </Stack>

@@ -1,23 +1,12 @@
 import { Flex, Container, Heading, Stack, Text, Button, Box } from '@chakra-ui/react';
 import './introduction.css';
-import homeLogo from './../../Assets/home-logo.png'
+import homeLogo from './../../Assets/stand.png'
 import { Image } from '@chakra-ui/react'
 import { useContext } from 'react';
 import ResumeContext from '../../Context/ResumeContext';
-import ThemeTemplateData from '../../db/ThemeTemplateData';
 
 export default function Introduction() {
     const { selectBtn, setSelectBtn, setCurrentTheme, showComponent, setShowComponent } = useContext(ResumeContext);
-
-    const handleSelectTemplate = () => {
-        setSelectBtn(!selectBtn)
-    }
-
-    const showTheme = (e) => {
-        setShowComponent(!showComponent)
-        setCurrentTheme(e.target.id)
-    }
-
 
     return (
         <Container my={{ base: 1.5, md: 16 }} justifyContent={'space-between'} flexDirection={{ base: 'column', md: 'row', sm: 'column' }} display={'flex'} alignItems={'center'} maxW={'7xl'}>
@@ -99,15 +88,7 @@ export default function Introduction() {
                     </Stack>
                     :
                     <>
-                        <Box maxW={{ base: '100%', md: '61%' }} className="templatesList">
-                            {
-                                ThemeTemplateData.map((item, index) => {
-                                    return <div key={index} className="template" onClick={showTheme}>
-                                        <img id={item.id} src={item.imageSrc} alt={item.imageAlt} />
-                                    </div>
-                                })
-                            }
-                        </Box>
+                        
                     </>
             }
         </Container>

@@ -40,7 +40,9 @@ export default function Footer() {
                 spacing={4}
                 justify={{ base: 'center', md: 'space-between' }}
                 align={{ base: 'center', md: 'center' }}>
+                <a href='./home'>
                 <Image style={{ height: '44px' }} src={logo} alt="logo" />
+                </a>
                 <Text>© Let's Make Resume Builder, All rights reserved</Text>
                 <Stack direction={'row'} spacing={6}>
                     <SocialButton label={'Github'} href={'https://github.com/anujkumaryadav'}>
