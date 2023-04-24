@@ -12,7 +12,7 @@ const testimonials = [
     },
     {
         name: 'Ms. Sejal Khanzode',
-        role: 'Frontend Developer',
+        role: ' Developer',
         content:
             'Hi there! Im Sejal Khanzode a Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
             avatar:
