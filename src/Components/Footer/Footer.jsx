@@ -45,13 +45,13 @@ export default function Footer() {
                 </a>
                 <Text>© Let's Make Resume Builder, All rights reserved</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'Github'} href={''}>
+                    <SocialButton label={'Github'} href={'https://www.github.com'}>
                         <FaGithub />
                     </SocialButton>
-                    <SocialButton label={'Twitter'} href={''}>
+                    <SocialButton label={'Twitter'} href={'https://www.twitter.com'}>
                         <FaTwitter />
                     </SocialButton>
-                    <SocialButton label={'LinkedIn'} href={''}>
+                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com'}>
                         <FaLinkedin />
                     </SocialButton>
                 </Stack>
