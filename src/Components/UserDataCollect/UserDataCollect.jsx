@@ -15,11 +15,11 @@ const UserDataCollect = () => {
     const [projArrTemplate, setProjArrTemplate] = useState([])
     const [educationArrTemplate, setEducationArrTemplate] = useState([])
     const [workArrTemplate, setWorkArrTemplate] = useState([])
-    const [projectData, setProjectData] = useState({ 'projectTitles': { pTitle1: "Project Title " }, 'projectDesc': { pDescription1: "Project Description are Shown here , with Bullet Points" } })
-    const [educationData, setEducationData] = useState({ 'educationTitles': { eTitle1: "Education Title" }, 'educationDesc': { eDescription1: "Education Description are Shown here , with Bullet Points" } })
-    const [workData, setWorkData] = useState({ 'workTitles': { wTitle1: "Work Title" }, 'workDesc': { wDescription1: "Work Description are Shown here , with Bullet Points" } })
-    const [personalData, setPersonalData] = useState({ profileImage: 'https://www.w3schools.com/howto/img_avatar.png', name: "Your Name", summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing eli', profile: "Work Profile", address: "Address Line", phone: "Phone Number", email: "Email Address", skill: 'Your, Skills, are, shown, here', })
-    const [awardData, setAwardData] = useState({ awards: 'Your Awards are shown here' })
+    const [projectData, setProjectData] = useState({ 'projectTitles': { pTitle1: "Project Title " }, 'projectDesc': { pDescription1: "Project Description" } })
+    const [educationData, setEducationData] = useState({ 'educationTitles': { eTitle1: "Education Title" }, 'educationDesc': { eDescription1: "Education Description" } })
+    const [workData, setWorkData] = useState({ 'workTitles': { wTitle1: "Work Title" }, 'workDesc': { wDescription1: "Work Description" } })
+    const [personalData, setPersonalData] = useState({ profileImage: 'https://www.w3schools.com/howto/img_avatar.png', name: "Your Name", summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing eli', profile: "Work Profile", address: "Address Line", phone: "Phone Number", email: "Email Address", linkedin: "LinkedIn Profile",github: "Github Profile" , skill: 'Your Skills', })
+    const [awardData, setAwardData] = useState({ awards: 'Awards Receved' })
     // To Add Personal Data to the State
     const handleChangePersonal = (e) => {
         const { name, value } = e.target
@@ -51,7 +51,7 @@ const UserDataCollect = () => {
                     <Input disabled={checkProj} id={`pTitle${i}`} name='pName' onChange={handleChangeProject} type={'text'} placeholder='Enter Project Title' />
                 </FormControl>
                 <FormControl isRequired className='my-2'>
-                    <Textarea disabled={checkProj} id={`pDescription${i}`} name='pDescription' onChange={handleChangeProject} placeholder='Use comma to separate Description' />
+                    <Textarea disabled={checkProj} id={`pDescription${i}`} name='pDescription' onChange={handleChangeProject} placeholder='Use - to separate Description' />
                 </FormControl>
             </>
         )
@@ -82,7 +82,7 @@ const UserDataCollect = () => {
                     <Input id={`eTitle${i}`} name='eName' onChange={handleChangeEducation} type={'text'} placeholder='Enter Title' />
                 </FormControl>
                 <FormControl isRequired className='my-2'>
-                    <Textarea id={`eDescription${i}`} name='eDescription' onChange={handleChangeEducation} placeholder='Use comma to separate Description' />
+                    <Textarea id={`eDescription${i}`} name='eDescription' onChange={handleChangeEducation} placeholder='Use - to separate Description' />
                 </FormControl>
             </>
         )
@@ -113,7 +113,7 @@ const UserDataCollect = () => {
                     <Input id={`wTitle${i}`} name='wName' onChange={handleChangeWork} type={'text'} placeholder='Enter Job Title' />
                 </FormControl>
                 <FormControl isRequired className='my-2'>
-                    <Textarea id={`wDescription${i}`} name='wDescription' onChange={handleChangeWork} placeholder='Use comma to separate Description' />
+                    <Textarea id={`wDescription${i}`} name='wDescription' onChange={handleChangeWork} placeholder='Use - to separate Description' />
                 </FormControl>
             </>
         )
@@ -171,6 +171,12 @@ const UserDataCollect = () => {
                     <FormControl isRequired className='my-2'>
                         <Input name='email' onChange={handleChangePersonal} type={'email'} placeholder='Email id' />
                     </FormControl>
+                    <FormControl isRequired className='my-2'>
+                        <Input name='linkedin' onChange={handleChangePersonal} type={'text'} placeholder='LinkedIn' />
+                    </FormControl>
+                    <FormControl isRequired className='my-2'>
+                        <Input name='github' onChange={handleChangePersonal} type={'text'} placeholder='Github' />
+                    </FormControl>
                 </div>
 
                 {/* Skills Area  */}
@@ -181,7 +187,7 @@ const UserDataCollect = () => {
                     <hr />
 
                     <FormControl isRequired className='my-2'>
-                        <Input name='skill' onChange={handleChangePersonal} type={'text'} placeholder='Separate skills by comma' />
+                        <Input name='skill' onChange={handleChangePersonal} type={'text'} placeholder='Separate skills by - ' />
                     </FormControl>
                 </div>
 
@@ -237,7 +243,7 @@ const UserDataCollect = () => {
                     </div>
                     <hr />
                     <FormControl isRequired className='my-2'>
-                        <Textarea name='awards' disabled={checkAward} onChange={handleChangeAwards} placeholder='Use comma to separate Achievement' />
+                        <Textarea name='awards' disabled={checkAward} onChange={handleChangeAwards} placeholder='Use -  to separate Achievement' />
                     </FormControl>
                 </div>
 

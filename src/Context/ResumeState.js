@@ -22,6 +22,7 @@ const ResumeState = (props) => {
             name: "Your Name",
             summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
             profile: "Work Profile",
+            linkedin: "LinkedIn",
             address: "Address Line",
             phone: "Phone Number",
             email: "Email Address",

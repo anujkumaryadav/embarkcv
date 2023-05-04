@@ -116,7 +116,7 @@ const Theme1 = (props) => {
                         !checkWork &&
                         <section id="experience" className='my-2'>
                             <Heading _dark={{ color: 'gray.800' }} bg={'#D2E4E1'} as='h3' size='md' px={20} py={2}>
-                                WORK EXPERIENCE
+                                WORK EXPERIENCE OR INTERNSHIP
                             </Heading>
 
                             <Box id='experience-set' className='basic-set'>

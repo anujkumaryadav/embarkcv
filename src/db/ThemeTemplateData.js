@@ -1,3 +1,5 @@
+
+
 const ThemeTemplateData = [
     {
         id: 'Theme1',
@@ -11,12 +13,13 @@ const ThemeTemplateData = [
     },
     {
         id: 'Theme3',
-        imageSrc: 'https://testanalytics-5e6e3.web.app/static/media/3.776a5714.JPG',
+        
+        imageSrc: 'https://lh5.googleusercontent.com/ijiVu9OO8d-uRYuwT44_yM_M0EwSlNa-okwDlrc-PkYbDWuBLs9bH0ZNr2ctHQXLvWab_OpZEeJ8erF4T_hR1_jz6OKa22iM9SP3J4f-DwPIbS8VfPvZuMDOdixfj73qxg=w1280',
         imageAlt: 'Theme3'
     },
     {
         id: 'Theme4',
-        imageSrc: 'https://testanalytics-5e6e3.web.app/static/media/4.af60bc02.jpg',
+        imageSrc: 'https://lh3.googleusercontent.com/tnhi5zu_dY6rd4JIt0f5357CJGA8P_eUpIYcgF4VJ0vWjKjAPqX08j4wvsFDNdycf9TV1YkfRoZ1Q-iseEFecxDcenrmKNJZvNFWS_Mh2RjPRsRoM-K6_KXScZIb5sR4iQ=w1280',
         imageAlt: 'Theme4'
     }
 ]
