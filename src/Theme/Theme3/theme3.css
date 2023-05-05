@@ -372,7 +372,7 @@
   border: 2px solid #000000;
   border-radius: 5px;
   width: 310px;
-  height: 500px;
+  height: 410px;
 }
 #inStock{
   margin: 10px;
@@ -445,7 +445,9 @@
   margin-left: 10px;
   width: 310px;
 }
-
+#bottomFotter{
+  margin-top: 40px;
+}
 
 /*
 

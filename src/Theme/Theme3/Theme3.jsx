@@ -115,7 +115,7 @@ const Theme3 = (props) => {
                             <Text id='userName'>{name}</Text>
                         </div>
                         <div id='brand'>
-                            <Text id='brandCandidate'>Brand : {profile}</Text>
+                            <Text id='brandCandidate'>Position : {profile}</Text>
                         </div>
                         <div id='rating'>
                             <img src={Rating} alt='ratingImg' id='ratingImg'/>
