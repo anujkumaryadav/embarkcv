@@ -481,28 +481,19 @@
   .subBox {
     margin-bottom: 15px;
   }
- 
-  #resume-avatar {
-      width: auto;
-      height: 105px;
+  
+  .sub-details {
+    padding: 0px 10px;
   }
-
-  .info-text {
-      width: 290px;
+  
+  .sub-title {
+    font-size: 1.1rem;
+    font-weight: 600;
   }
-
-  .summary-text {
-      width: 100% !important;
+  
+  /* media quires */
+  @media only screen and (max-width: 450px) {
+    .basic-set {
+      margin: 0rem 1rem;
+    }
   }
-}
-
-@media only screen and (max-width: 430px) {
-  #theme2 {
-      padding: 14px 10px;
-  }
-
-}
-
-/* #section-to-print{
-  width: ;
-} */
