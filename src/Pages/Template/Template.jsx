@@ -5,6 +5,7 @@ import BuilderArea from '../BuilderArea';
 import Theme1 from './../../Theme/Theme1/Theme1'
 import Theme2 from '../../Theme/Theme2/Theme2';
 import Theme3 from './../../Theme/Theme3/Theme3'
+import Theme4 from './../../Theme/Theme4/Theme4'
 import ErrorPage from '../Error/ErrorPage';
 
 const Template = () => {  
@@ -25,7 +26,7 @@ const Template = () => {
                 (showComponent && currentTheme === 'Theme3') && <BuilderArea theme={<Theme3 componentRef={componentRef} themeData={themeData} />} />
             }
             {
-                (showComponent && currentTheme === 'Theme4') && <ErrorPage />
+                (showComponent && currentTheme === 'Theme4') && <BuilderArea theme={<Theme4 componentRef={componentRef} themeData={themeData} />} />
             }
         </>
     )
