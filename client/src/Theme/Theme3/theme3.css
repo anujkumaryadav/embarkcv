@@ -1,0 +1,509 @@
+#header{
+  background-color: #0f171e !important;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 85px;
+}
+
+#Amazontemp3{
+  height: 60px;
+  width: 100px;
+}
+
+#Location{
+  height: 30px;
+  width: 20px;
+  margin-top: 20px;
+}
+
+#deliveryAddress{
+  padding: 3px;
+  font-size: xx-small;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.deliveryAddressText{
+  color: white;
+}
+
+#searchResult{
+  display: flex;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  margin-left: 3px;
+}
+#searchCategory{
+  background-color: #F5F5F5 !important;
+  display: flex;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#searchCategoryText{
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: x-small;
+}
+#searchDropdown{
+  height: 15px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#searchArea{
+  background-color: #ffffff !important;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+#searchAreaText{
+  color: black;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+#searchIcon{
+  background-color: #FEBD69 !important;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#searchIconLogo{
+  height: 25px;
+  margin: 10px;
+}
+
+#India{
+  display: flex;
+  margin-left: 10px;
+}
+#IndiaLogo{
+  height: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+}
+#ENText{
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 3px;
+}
+#searchDropdownEN{
+  height: 10px;
+  margin-left: 3px;
+  margin-right: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#Company{
+  display: flex;
+}
+#textAccount{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+#searchDropdownComp{
+  height: 10px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+}
+#Cart{
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+/* 
+    End of Header
+*/
+
+
+/*
+  Starting of Contact Information
+*/
+
+#contactInfo{
+  display: flex;
+  background-color: #1b2530 !important;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+#socialMedia{
+  display: flex;
+  background-color: #1b2530 !important;
+  height: 40px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#addressUser{
+  display: flex;
+}
+#locationUser{
+  height: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#address{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  color: white;
+}
+#emailUser{
+  height: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#email{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  color: white;
+}
+#phoneUser{
+  height: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#phone{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  color: white;
+}
+#linkedinUser{
+  height: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#linkedin{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  color: white;
+}
+#githubUser{
+  height: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 10px;
+}
+#github{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 3px;
+  margin-right: 10px;
+  color: white;
+}
+
+/*
+  End of Contact Information
+*/
+
+/*
+    Profile Information 1st Section Start
+*/
+
+#mainSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+#firstSection{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#name{
+  font-size: xx-large;
+}
+#brand{
+  color: #00b4d8;
+  font-size: medium;
+  font-weight: 500;
+}
+#rating{
+  height: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  color: #00b4d8;
+  font-weight: 500;
+}
+#ratingImg{
+  height: 15px;
+  margin-right: 10px;
+}
+#amazonChoice{
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+#amazonChoiceImg{
+  height: 20px;
+}
+#for{
+  margin-left: 10px;
+}
+#amazonChoiceHiring{
+  margin-left: 5px;
+  color: #00b4d8;
+  font-weight: 500;
+}
+
+
+#priceDescription{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  width: 430px;
+  
+}
+#listPrice,#withDealAddtoCart,#youSaveFutureCompany,#oneLeftinStock{
+  display: flex;
+}
+#Price{
+  margin-left: 3px;
+  font-weight: 500;
+  width: 300px;
+}
+#list,#withDeal,#youSave{
+  color: gray;
+  font-size: medium;
+}
+#addtoCart,#futureCompany{
+  color: red;
+  font-size: medium;
+  font-weight: 500;
+  margin-left: 3px;
+}
+#Left{
+  font-weight: 500;
+  color: black;
+  margin-left: 3px;
+}
+#order{
+  color: #00b4d8;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+
+#description{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#txtDesc{
+  font-size: larger;
+  font-weight: 700;
+  align-items: center;
+}
+#summaryTxt{
+  font-size: medium;
+  color: black;
+  size: 500px;
+}
+
+/*
+  Education Session
+
+*/
+
+#educationDesc{
+  height: 300px;
+  width: 430px;
+}
+#educationTxt{
+  margin-top: 10px;
+  font-size: larger;
+  font-weight: 700;
+  align-items: center;
+}
+#eduInfo{
+  display: flex;
+  margin-top: 10px;
+}
+#collegeDetails{
+  margin-left: 20px;
+}
+#collegeName,#courseName{
+  font-weight: 500;
+  font-size: larger;
+}
+#descTxt{
+  margin-left: 9px;
+}
+#education-set1{
+  margin-left: 10px;
+  height: 300px;
+  width: 430px;
+}
+
+/*
+    Profile Information 1st Section End
+*/
+
+/*
+
+    Profile Information 2nd Section Start
+
+*/
+
+#secondSection{
+  margin: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  width: 310px;
+  height: 410px;
+  position: static;
+}
+#inStock{
+  margin: 10px;
+  font-size: larger;
+  color: #29AB87;
+  font-weight: 500;
+}
+#quantityImg{
+  height: 35px;
+  margin-left: 10px;
+}
+#workingExpTxt{
+  margin-left: 10px;
+  font-size: larger;
+  font-weight: 700;
+  align-items: center;
+  color: #FEBD69;
+}
+#experience-set1{
+  margin-left: 10px;
+  width: 310px;
+}
+#skills-set1{
+  width: 310px;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+#skillstxt{
+  margin-left: 10px;
+  font-size: larger;
+  font-weight: 700;
+  align-items: center;
+  color: #FEBD69;
+}
+#AddtoCart{
+  border: 0px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+#AddtoCartTxt,#buyNowTxt{
+  margin: 3px;
+  padding: 3px;
+  text-align: center;
+  font-size: larger;
+  font-weight: 400;
+}
+#BuyNow{
+  border: 0px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: #FEBD69;
+  border-radius: 20px;
+}
+#customerWhoSearchTxt{
+  font-size: larger;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 40px;
+}
+#projectsTxt,#achievementsTxt{
+  font-size: larger;
+  font-weight: 700;
+  align-items: center;
+}
+#project-set1,#award-set1{
+  margin-left: 10px;
+  width: 310px;
+}
+#bottomFotter{
+  margin-top: 40px;
+  position: relative;
+}
+
+/*
+
+    Profile Information 2nd Section End
+
+*/
+
+
+
+
+/* Skills Set  */
+.skill-badge {
+    background-color: #D2E4E1 !important;
+    color: black !important;
+    margin: 5px;
+  }
+  
+  .skillBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .basic-set {
+    /* width: 61%; */
+    margin: 0rem 5rem;
+    padding-top: 10px;
+  }
+  
+  
+  /* Utility  */
+  .subBox {
+    margin-bottom: 15px;
+  }
+  
+  .sub-details {
+    padding: 0px 10px;
+  }
+  
+  .sub-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  /* media quires */
+  @media only screen and (max-width: 450px) {
+    .basic-set {
+      margin: 0rem 1rem;
+    }
+  }
