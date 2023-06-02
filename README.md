@@ -1,7 +1,7 @@
 # Resume Builder Website
 
 Welcome to Let's Make Resume Builder Website a college Mini Project! Our website allows users to easily create professional resume.
-Checkout : https://letsmakeresume.netlify.app/
+Checkout : 
 ## Features
 - User-friendly interface for creating resumes.
 - Variety of Templates for different job roles.
