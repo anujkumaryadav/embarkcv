@@ -31,14 +31,13 @@ export default function Navbar() {
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/tips'} >Tips </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/about'}> Contact Us</ReachLink>
                         </HStack>
-
-                        <a href='/login'>
+                        
+                        {/*<a href='/login'>
                             <Button onClick={Login}>
                                 <h6>LOG IN</h6>
                             </Button>
-                        </a>
+                        </a>*/}
                         
-
                         <Button onClick={toggleColorMode}>
                             {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
                         </Button>

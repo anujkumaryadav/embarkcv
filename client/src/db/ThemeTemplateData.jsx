@@ -1,4 +1,5 @@
-
+import AmazonTheme3 from './../Assets/Amazon/theme.jpg'
+import NextLevelTheme4 from  './../Assets/nextlevel/theme4.jpg'
 
 const ThemeTemplateData = [
     {
@@ -13,12 +14,12 @@ const ThemeTemplateData = [
     },
     {
         id: 'Theme3',
-        imageSrc: 'https://lh3.googleusercontent.com/yI8NVusReCfiqDCaDnEHyXn7sgxRQG2SnCYjOU6JV8rJDo8F5-dzNX0GmaclbUoQ4sn-MndfhHVtmpqChJgmUN4=w1280',
+        imageSrc: AmazonTheme3,
         imageAlt: 'Theme3'
     },
     {
         id: 'Theme4',
-        imageSrc: 'https://lh5.googleusercontent.com/ovx7w7VZ30SV90KTjpqotw0j0ZIujcF63uzlQLEdp5k4lsNKx0MEN7oFfqG7u3qvuOiAS8iqeV0TjbbYsScUarDO_iNK-Npvhob7UoK5JqZStsvq8JK1pJ_J__V6YNWj6A=w1280',
+        imageSrc: NextLevelTheme4,
         imageAlt: 'Theme4'
     }
 ]

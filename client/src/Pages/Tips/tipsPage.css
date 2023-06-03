@@ -1,0 +1,17 @@
+Span1{
+    font-family: monospace;
+    color: black;
+    margin: 10px;
+    font-weight: 700;
+    padding: 10px;
+}
+p1,h31{
+    color: black;
+    font-family: cursive;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 10;
+}

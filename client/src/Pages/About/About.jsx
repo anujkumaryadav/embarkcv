@@ -2,6 +2,14 @@ import { Avatar, Box, chakra, Flex, Icon, SimpleGrid, useColorModeValue, } from 
 
 const testimonials = [
     {
+        name: 'Mr. Anujkumar Yadav',
+        role: 'Full Stack Developer',
+        content:
+            'Hi there! Im Anujkumar Yadav a Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+        avatar:
+            'https://avatars.githubusercontent.com/anujkumaryadav',
+    },
+    {
         name: 'Mr. Prem Mungle',
         role: 'Frontend Developer',
         content:
@@ -17,15 +25,8 @@ const testimonials = [
             'Hi there! Im Sejal Khanzode a Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
             avatar:
             'https://avatars.githubusercontent.com/sejalkhanzode',
-    },
-    {
-        name: 'Mr. Anujkumar Yadav',
-        role: 'Full Stack Developer',
-        content:
-            'Hi there! Im Anujkumar Yadav a Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
-        avatar:
-            'https://avatars.githubusercontent.com/anujkumaryadav',
     }
+    
 ];
 
 
