@@ -232,6 +232,8 @@ It's essential to tailor your resume to the specific job you are applying for an
   </AccordionPanel>
 </AccordionItem>
       </Accordion>
+      
     </>
+    
     );
 }
