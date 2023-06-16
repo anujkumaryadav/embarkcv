@@ -38,26 +38,15 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/home" element={<Home />} />
-          <Route exact path="/templates" element={<Template />} />
-          <Route exact path="/tips" element={<Tips />} />
-          <Route exact path="/about" element={<About />} />
-		  <Route
-					exact
-					path="/"
-					element={user ? <Home2 user={user} /> : <Navigate to="/login" />}
-				/>
-				<Route
-					exact
-					path="/login"
-					element={user ? <Navigate to="/" /> : <Login />}
-				/>
-				<Route
-					path="/signup"
-					element={user ? <Navigate to="/" /> : <Signup />}
-				/>
-        </Routes>
+			<Route exact path="/" element={<Home />} />
+			<Route exact path="/home" element={<Home />} />
+			<Route exact path="/templates" element={<Template />} />
+			<Route exact path="/tips" element={<Tips />} />
+			<Route exact path="/about" element={<About />} />
+			<Route exact path="/" element={user ? <Home2 user={user} /> : <Navigate to="/login" />} />
+			<Route exact path="/login" element={user ? <Navigate to="/" /> : <Login />} />
+			<Route path="/signup" element={user ? <Navigate to="/" /> : <Signup />} />
+		</Routes>
       </div>
     
     </ResumeState>

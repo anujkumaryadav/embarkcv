@@ -1,5 +1,5 @@
 import { Box, chakra, Container, Stack, Text, Image, useColorModeValue, VisuallyHidden, } from '@chakra-ui/react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import logo from './../../Assets/logo1.png';
 
 
@@ -45,13 +45,7 @@ export default function Footer() {
                 </a>
                 <Text>© Let's Make Resume Builder, All rights reserved</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'Github'} href={'https://www.github.com'}>
-                        <FaGithub />
-                    </SocialButton>
-                    <SocialButton label={'Twitter'} href={'https://www.twitter.com'}>
-                        <FaTwitter />
-                    </SocialButton>
-                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com'}>
+                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/company/let-s-make-resume/'}>
                         <FaLinkedin />
                     </SocialButton>
                 </Stack>
