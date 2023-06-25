@@ -1,5 +1,4 @@
 import { Avatar, Box, chakra, Flex, Icon, SimpleGrid, useColorModeValue, } from '@chakra-ui/react';
-import LinkedIn from './../../Assets/Amazon/linkedin.png'
 import Footer from './../../Components/Footer/Footer.jsx';
 
 const testimonials = [
@@ -7,7 +6,7 @@ const testimonials = [
         name: 'Mr. Anujkumar Yadav',
         role: 'Full Stack Developer',
         content:
-            'Hi there! Im Anujkumar Yadav a Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+            'Hi there! This is Anujkumar Founder of Lets Make Resume & Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
         avatar:
             'https://avatars.githubusercontent.com/anujkumaryadav',
     },

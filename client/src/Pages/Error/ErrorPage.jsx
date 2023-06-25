@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Heading, Text, Button } from '@chakra-ui/react';
-import errorImg from './../../Assets/404.png'
 
 const ErrorPage = () => {
     return (

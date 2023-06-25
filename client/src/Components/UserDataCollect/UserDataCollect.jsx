@@ -51,7 +51,7 @@ const UserDataCollect = () => {
                     <Input disabled={checkProj} id={`pTitle${i}`} name='pName' onChange={handleChangeProject} type={'text'} placeholder='Enter Project Title' />
                 </FormControl>
                 <FormControl isRequired className='my-2'>
-                    <Textarea disabled={checkProj} id={`pDescription${i}`} name='pDescription' onChange={handleChangeProject} placeholder='Use - to separate Description' />
+                    <Textarea disabled={checkProj} id={`pDescription${i}`} name='pDescription' onChange={handleChangeProject} placeholder='Use / to separate Description' />
                 </FormControl>
             </>
         )
@@ -82,7 +82,7 @@ const UserDataCollect = () => {
                     <Input id={`eTitle${i}`} name='eName' onChange={handleChangeEducation} type={'text'} placeholder='Enter Title' />
                 </FormControl>
                 <FormControl isRequired className='my-2'>
-                    <Textarea id={`eDescription${i}`} name='eDescription' onChange={handleChangeEducation} placeholder='Use - to separate Description' />
+                    <Textarea id={`eDescription${i}`} name='eDescription' onChange={handleChangeEducation} placeholder='Use / to separate Description' />
                 </FormControl>
             </>
         )
@@ -113,7 +113,7 @@ const UserDataCollect = () => {
                     <Input id={`wTitle${i}`} name='wName' onChange={handleChangeWork} type={'text'} placeholder='Enter Job Title' />
                 </FormControl>
                 <FormControl isRequired className='my-2'>
-                    <Textarea id={`wDescription${i}`} name='wDescription' onChange={handleChangeWork} placeholder='Use - to separate Description' />
+                    <Textarea id={`wDescription${i}`} name='wDescription' onChange={handleChangeWork} placeholder='Use / to separate Description' />
                 </FormControl>
             </>
         )
@@ -187,7 +187,7 @@ const UserDataCollect = () => {
                     <hr />
 
                     <FormControl isRequired className='my-2'>
-                        <Input name='skill' onChange={handleChangePersonal} type={'text'} placeholder='Separate skills by / ' />
+                        <Input name='skill' onChange={handleChangePersonal} type={'text'} placeholder='Separate skills by - ' />
                     </FormControl>
                 </div>
 

@@ -2,9 +2,6 @@ import ResumeContext from "./ResumeContext";
 import { useState, useRef } from "react";
 import { useReactToPrint } from 'react-to-print';
 
-
-
-
 const ResumeState = (props) => {
 
     const componentRef = useRef();
@@ -52,7 +49,6 @@ const ResumeState = (props) => {
     const [checkWork, setCheckWork] = useState(false);
     const [checkAward, setCheckAward] = useState(false);
     const [loading, setLoading] = useState(false);
-    //Change bellow two state for create any new Theme
     const [showComponent, setShowComponent] = useState(false);
     const [currentTheme, setCurrentTheme] = useState('Theme1');
     const [selectBtn, setSelectBtn] = useState(true)
@@ -66,4 +62,3 @@ const ResumeState = (props) => {
 }
 
 export default ResumeState
-
