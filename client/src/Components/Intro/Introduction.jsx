@@ -26,7 +26,7 @@ export default function Introduction() {
                                 fontWeight={600}
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
-                                Let's Make Resume {' '}
+                                Resume Big Boss {' '}
                                 <Text as={'span'} color={'#38B2AC'}>
                                     Engineers  {' '}
                                 </Text>
@@ -34,7 +34,7 @@ export default function Introduction() {
                             </Heading>
 
                             <Text color={'gray.500'} maxW={'3xl'}>
-                                Let's Make Resume that assemble well-formatted resume. Through a LM resume builder, you can create a professional-looking resume in a few easy steps. This resume builder offer variety of template options, so you can select the template that best fits your needs and style.
+                                Resume Big Boss that assemble well-formatted resume. Through a Resume Big Boss builder, you can create a professional-looking resume in a few easy steps. This resume builder offer variety of template options, so you can select the template that best fits your needs and style.
                             </Text>
 
                             <Flex _dark={{ color: 'gray.50' }} textAlign={'start'} flexDirection={'column'} w={'full'}>
