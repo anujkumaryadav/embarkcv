@@ -1,15 +1,9 @@
-/* #theme1 {
-  width: 90%;
-  margin: auto;
-} */
-
-
 /* Skills Set  */
 .skill-badge {
   background-color: #D2E4E1 !important;
   color: black !important;
   margin: 5px;
-}
+} 
 
 .skillBox {
   display: flex;
@@ -45,4 +39,4 @@
   .basic-set {
     margin: 0rem 1rem;
   }
-}
+} 

@@ -41,7 +41,7 @@ const Theme1 = (props) => {
                         <Box id='skills-set' className='basic-set d-flex justify-content-center align-items-center'>
                             <Box className='skillBox'>
                                 {
-                                    skill.split(',').map((element, index) => <Badge key={index} className='skill-badge' variant='solid'>{element}</Badge>)
+                                     skill.split(',').map((element, index) => <Badge key={index} className='skill-badge' variant='solid'>{element}</Badge>)
                                 }
                             </Box>
                         </Box>

@@ -1,9 +1,6 @@
 import React, { useContext } from 'react'
-import { Heading, Text, Box, Badge } from '@chakra-ui/react'
+import { Text, Box, Badge } from '@chakra-ui/react'
 import './theme3.css'
-import { ImLocation } from 'react-icons/im'
-import { GrMail } from 'react-icons/gr'
-import { BsFillTelephoneFill } from 'react-icons/bs'
 import ResumeContext from '../../Context/ResumeContext'
 import Amazon from './../../Assets/Amazon/amazonLogo.png'
 import Location from './../../Assets/Amazon/location.png'
@@ -16,7 +13,6 @@ import Phone from './../../Assets/Amazon/phone.png'
 import Linkedin from './../../Assets/Amazon/linkedin.png'
 import Github from './../../Assets/Amazon/github.png'
 import Rating from './../../Assets/Amazon/star.png'
-import College from './../../Assets/Amazon/college.png'
 import Quantaty from './../../Assets/Amazon/quantity.png'
 import Amazonchoice from './../../Assets/Amazon/amazonChoice.png'
  
@@ -197,7 +193,9 @@ const Theme3 = (props) => {
                     <div id='secondSection'>
                         <Text id='inStock'>In stock</Text>
                         <img src={Quantaty} alt='' id='quantityImg'/>
-                        <div id='workingExperience'>
+                        {
+                            !checkWork &&
+                            <section id='workingExperience'>
                             <Text id='workingExpTxt'>Working Experience</Text>
                                 <Box id='experience-set1' className='basic-set'>
                                     {
@@ -221,7 +219,8 @@ const Theme3 = (props) => {
                                         })
                                     }
                                 </Box>
-                        </div>
+                        </section>
+                        }
 
                         <div id='skills'>
                             <Text id='skillstxt'>Skills</Text>
@@ -242,7 +241,9 @@ const Theme3 = (props) => {
                             </div>
                         </div>
                         
-                        <div id='bottomFotter'>
+                        {
+                            !checkProj &&
+                            <section id='bottomFotter'>
                             <Text id='customerWhoSearchTxt'>Customer who searched for</Text>
                             <Text id='projectsTxt'>ACADEMICS PROJECTS</Text>  
                             <Box id='project-set1' className='basic-set'>
@@ -277,7 +278,8 @@ const Theme3 = (props) => {
                                     }
                                 </Box>
                             </Box>
-                        </div>
+                        </section>
+                        }
 
                     </div>
                 </div>
