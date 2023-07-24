@@ -1,6 +1,6 @@
 import { Flex, Container, Heading, Stack, Text, Button, Box } from '@chakra-ui/react';
 import './introduction.css';
-import homeLogo from './../../Assets/stand.png'
+import homeLogo from './../../Assets/landingLogo.jpg'
 import { Image } from '@chakra-ui/react'
 import { useContext } from 'react';
 import ResumeContext from '../../Context/ResumeContext';
@@ -26,9 +26,9 @@ export default function Introduction() {
                                 fontWeight={600}
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
-                                Resume Big Boss {' '}
-                                <Text as={'span'} color={'#38B2AC'}>
-                                    Engineers  {' '}
+                                Resume Big Boss the {' '}
+                                <Text as={'span'} color={'#007FFF'}>
+                                    Engineers  {''}
                                 </Text>
                                 Choice
                             </Heading>
@@ -66,17 +66,8 @@ export default function Introduction() {
                             </Flex>
                         </>
                         :
-                        <Heading
-                            m={'1.5'}
-                            textAlign={{ base: 'center', md: 'start' }}
-                            fontWeight={600}
-                            fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
-                            lineHeight={'110%'}>
-                            Select a {' '}
-                            <Text as={'span'} color={'#38B2AC'}>
-                                Template {' '}
-                            </Text>
-                            from the list
+                        <Heading>
+                            
                         </Heading>
                 }
             </Stack>
@@ -84,7 +75,7 @@ export default function Introduction() {
             {
                 selectBtn ?
                     <Stack>
-                        <Image src={homeLogo} alt='home logo' my={'4'} />
+                        <Image src={homeLogo} alt='home logo' my={'4'} height={500}/>
                        
                     </Stack>
                     :

@@ -119,7 +119,7 @@ export default function About() {
                     fontWeight={'bold'}
                     fontSize={20}
                     textTransform={'uppercase'}
-                    color={'teal.400'}>
+                    color={'#007FFF'}>
                     We are Developers
                 </chakra.h3>
                 <chakra.h1

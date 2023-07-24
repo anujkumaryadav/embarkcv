@@ -1,6 +1,6 @@
 import { Flex, Container, Heading, Stack, Text, Button, Box } from '@chakra-ui/react';
 import './temp.css';
-import homeLogo from './../../Assets/searching.png'
+import homeLogo from './../../Assets/break.png'
 import { Image } from '@chakra-ui/react'
 import { useContext } from 'react';
 import ResumeContext from '../../Context/ResumeContext';
@@ -37,7 +37,7 @@ export default function Temp() {
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
                                 Start building your {' '}
-                                <Text as={'span'} color={'#38B2AC'}>
+                                <Text as={'span'} color={'#007FFF'}>
                                     Professional Resume  {' '}
                                 </Text>
                                 with us
@@ -81,7 +81,7 @@ export default function Temp() {
                             fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                             lineHeight={'110%'}>
                             Choose your {' '}
-                            <Text as={'span'} color={'#38B2AC'}>
+                            <Text as={'span'} color={'#007FFF'}>
                                 Favorite Template {' '}
                             </Text>
                             
@@ -92,15 +92,15 @@ export default function Temp() {
             {
                 selectBtn ?
                     <Stack>
-                        <Image src={homeLogo} alt='home logo' my={'4'} />
+                        <Image src={homeLogo} alt='home logo' my={'4'} height={400}/>
                         <Button
                             onClick={handleSelectTemplate}
                             rounded={'full'}
                             px={6}
                             className='mb-4'
                             colorScheme={'teal'}
-                            bg={'#38B2AC'}
-                            _hover={{ bg: '#319795' }}>
+                            bg={'#B2BEB5'}
+                            _hover={{ bg: '#007FFF' }}>
                             Select Template
                         </Button>
                     </Stack>

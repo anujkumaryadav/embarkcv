@@ -25,7 +25,7 @@ const Template = () => {
             {
                 (showComponent && currentTheme === 'Theme3') && <BuilderArea theme={<Theme3 componentRef={componentRef} themeData={themeData} />} />
             }
-            {
+            {//007FFF
                 (showComponent && currentTheme === 'Theme4') && <ErrorPage/>
             }
         </>

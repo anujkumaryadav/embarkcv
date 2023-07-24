@@ -11,7 +11,7 @@ const ErrorPage = () => {
                     display="inline-block"
                     as="h2"
                     size="2xl"
-                    bgGradient="linear(to-r, teal.400, teal.600)"
+                    backgroundColor="#007FFF"
                     backgroundClip="text">
                     404
                 </Heading>
@@ -26,8 +26,9 @@ const ErrorPage = () => {
 
                 <Button
                     onClick={() => window.location.reload()}
-                    colorScheme="teal"
-                    bgGradient="linear(to-r, teal.400, teal.500, teal.600)"
+                    //colorScheme="teal"
+                    //backgroundColor="#FFF"
+                    bgGradient="linear(to-r, #6CB4EE, #007FFF)"
                     color="white"
                     variant="solid">
                     Select Another Template
