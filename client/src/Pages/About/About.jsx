@@ -7,7 +7,7 @@ const testimonials = [
         name: 'Mr. Prem Mungle',
         role: 'Frontend Developer',
         content:
-            'Hi there! I am Prem Mungle, Founder of Resume Big Boss & Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+            'Hi there! I am Prem Mungle, Founder at EmbarkCv & Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
             
         avatar:
             'https://avatars.githubusercontent.com/pmungle',
@@ -16,7 +16,7 @@ const testimonials = [
         name: 'Mr. Anujkumar Yadav',
         role: 'Full Stack Developer',
         content:
-            'Hi there! This is Anujkumar, Co - Founder of Resume Big Boss & Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+            'Hi there! This is Anujkumar, Co - Founder at EmbarkCv & Junior Full Stack Developer. A Engineer not by any Institute but a self-taught Engineer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
         avatar:
             'https://avatars.githubusercontent.com/anujkumaryadav',
     },
@@ -24,7 +24,7 @@ const testimonials = [
         name: 'Ms. Sejal Khanzode',
         role: 'Frontend Developer',
         content:
-            'Hi there! Im Sejal Khanzode, Co - Founder of Resume Big Boss & Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
+            'Hi there! Im Sejal Khanzode, Co - Founder at EmbarkCv & Junior Frontend Developer. Currently, I am pursuing a B.Tech degree in Computer Engineering from Bajaj Institute of Technology, Wardha.',
             avatar:
             'https://avatars.githubusercontent.com/sejalkhanzode',
     }
