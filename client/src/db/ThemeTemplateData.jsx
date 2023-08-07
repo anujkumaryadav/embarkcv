@@ -1,5 +1,5 @@
 import AmazonTheme3 from './../Assets/Amazon/theme.jpg'
-import NextLevelTheme4 from  './../Assets/nextlevel/theme4.jpg'
+import MicrosoftTemplate from  './../Assets/microsoftTemplate.jpg'
 
 const ThemeTemplateData = [
     {
@@ -19,7 +19,7 @@ const ThemeTemplateData = [
     },
     {
         id: 'Theme4',
-        imageSrc: NextLevelTheme4,
+        imageSrc: MicrosoftTemplate,
         imageAlt: 'Theme4'
     }
 ]
