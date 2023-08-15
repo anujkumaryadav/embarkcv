@@ -45,7 +45,7 @@ export default function Footer() {
                 </a>
                 <Text>© EMBARKCV, All rights reserved</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/company/resume-bigboss/'}>
+                    <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/company/embarkcv/'}>
                         <FaLinkedin />
                     </SocialButton>
                 </Stack>
