@@ -26,7 +26,7 @@ export default function Introduction() {
                                 fontWeight={600}
                                 fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
                                 lineHeight={'110%'}>
-                                EmbarkCv the {' '}
+                                Embarkcv the {' '}
                                 <Text as={'span'} color={'#007FFF'}>
                                     Engineers  {''}
                                 </Text>
@@ -34,7 +34,7 @@ export default function Introduction() {
                             </Heading>
 
                             <Text color={'gray.500'} maxW={'3xl'}>
-                                EmbarkCv that assemble well-formatted resume. Through a EmbarkCv builder, you can create a professional-looking resume in a few easy steps. This resume builder offer variety of template options, so you can select the template that best fits your needs and style.
+                                Embarkcv that assemble well-formatted resume. Through a Embarkcv builder, you can create a professional-looking resume in a few easy steps. This resume builder offer variety of template options, so you can select the template that best fits your needs and style.
                             </Text>
 
                             <Flex _dark={{ color: 'gray.50' }} textAlign={'start'} flexDirection={'column'} w={'full'}>

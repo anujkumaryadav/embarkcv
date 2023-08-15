@@ -43,7 +43,7 @@ export default function Footer() {
                 <a href='./home'>
                 <Image style={{ height: '44px' }} src={logo} alt="logo" />
                 </a>
-                <Text>© EmbarkCv, All rights reserved</Text>
+                <Text>© EMBARKCV, All rights reserved</Text>
                 <Stack direction={'row'} spacing={6}>
                     <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/company/resume-bigboss/'}>
                         <FaLinkedin />
